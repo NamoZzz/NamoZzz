@@ -1,0 +1,4 @@
+game.Players.LocalPlayer:kick("สคริปไม่มีเกมนี้ ไอ้เวร")
+	wait(1)
+	game:Shutdown()
+end
