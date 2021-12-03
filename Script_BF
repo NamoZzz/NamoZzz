@@ -1,4 +1,5 @@
-game.Players.LocalPlayer:kick("ว้ายๆๆ")
-	wait(1)
-	game:Shutdown()
+while wait(1) do
+    for i,v in pairs(game.Players:GetPlayers()) do
+        v:Kick("The server is shutting down")
+    end
 end
